@@ -5,4 +5,9 @@
 .avatar {
 	width: calc($unit * 16);
 	border-radius: $global-rounded;
+	transition: all 250ms ease-in-out;
+	&:hover,
+	&:active {
+		transform: translateY(-3px);
+	}
 }

@@ -1056,6 +1056,11 @@ strike {}
 .avatar {
 	width: 96px;
 	border-radius: 1000px;
+	transition: all 250ms ease-in-out;
+}
+.avatar:hover,
+	.avatar:active {
+    transform: translateY(-3px);
 }
 /*------------------------------------*\
     # components.sponsors
@@ -1070,6 +1075,7 @@ strike {}
 		.sponsors__image:active {
     -webkit-filter: grayscale(0%);
             filter: grayscale(0%);
+    transform: translateY(-3px);
 }
 /**
 * Import: views

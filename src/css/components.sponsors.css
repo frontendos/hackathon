@@ -10,6 +10,7 @@
 		&:focus,
 		&:active {
 			filter: grayscale(0%);
+			transform: translateY(-3px);
 		}
 	}
 }
